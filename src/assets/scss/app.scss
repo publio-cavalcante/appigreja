@@ -1,0 +1,33 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import "toastr";
+@import '../../../node_modules/material-design-icons/iconfont/material-icons.css';
+@import '../../../node_modules/vue-sidebar-menu/dist/vue-sidebar-menu.css';
+@import '../../../node_modules/vuetify/dist/vuetify.min.css';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+
+*{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+.material-icons.md-18 { font-size: 18px }
+.material-icons.md-24 { font-size: 24px }
+.material-icons.md-36 { font-size: 36px }
+.material-icons.md-48 { font-size: 48px }
+
+$namespace: 'xmx';
+$default-color: #555;
+$primary-color: #17a71e;
+
+$palette1: #033249;
+$palette2: #5e8a75;
+$palette3: #c4b5a0;
+$palette4: #e9e6e1;
+$palette5: #f7f7f7;
+
+:root{
+  --dataseach: 9995;
+  --cad: 9994;
+}
